@@ -402,6 +402,8 @@ GEM
       net-scp (>= 1.1.2)
       net-ssh (>= 2.8.0)
     temple (0.8.2)
+    terser (1.1.12)
+      execjs (>= 0.3.0, < 3)
     thinking-sphinx (5.4.0)
       activerecord (>= 4.2.0)
       builder (>= 2.1.2)
@@ -492,6 +494,7 @@ DEPENDENCIES
   slim-rails
   spring
   spring-watcher-listen (~> 2.0.0)
+  terser
   thinking-sphinx
   turbolinks (~> 5)
   tzinfo-data
