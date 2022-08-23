@@ -80,7 +80,7 @@ group :development do
   gem 'capistrano-rails', require: false
   gem 'capistrano-rvm', require: false
   gem 'capistrano-passenger', require: false
-  gem 'capistrano-sidekiq'
+  gem 'capistrano-sidekiq', require: false
 end
 
 group :test do
