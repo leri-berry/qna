@@ -1,0 +1,2 @@
+production:
+  pidfile: /home/deployer/qna/shared/tmp/pids/sidekiq_production.pid
