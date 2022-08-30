@@ -1,9 +1,10 @@
-.answer id="answer-#{answer.id}"
-  p= answer.author.email
+- cache answer do
+  .answer id="answer-#{answer.id}"
+    p= answer.author.email
 
-  p= answer.body
+    p= answer.body
 
-  p= render 'shared/vote', resource: answer
+    p= render 'shared/vote', resource: answer
 
 .links
   p Links:
