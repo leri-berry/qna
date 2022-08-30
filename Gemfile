@@ -36,6 +36,7 @@ gem 'whenever', require: false
 gem 'mysql2'
 gem 'thinking-sphinx'
 gem 'unicorn'
+gem 'redis-rails'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'

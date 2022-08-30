@@ -1,6 +1,7 @@
 - if can?(:create, Question)
 p= link_to 'Ask a question', new_question_path
-.questions
-    - @questions.each do |question|
-        p= question.title
-        p= question.body 
+- cache collection_cache_key_for :question do
+  .questions
+      - @questions.each do |question|
+          p= question.title
+          p= question.body
